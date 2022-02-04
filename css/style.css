@@ -1,0 +1,176 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-main: linear-gradient(
+    to left,
+    #111,
+    #171c5e,
+    #14213d,
+    #14213d,
+    #333,
+    #444,
+    #666,
+    #888,
+    #666,
+    #444,
+    #222,
+    #14213d,
+    #14213d,
+    #171c5e,
+    #111
+  );
+  --background-commun: #333;
+  --border: #aaa;
+  --background-input: rgb(68, 67, 67);
+  --text-shadow:rgb(163, 4, 4);
+  --background-cigares:
+  --background-timb-cig:white;
+  --pictures:rgba(131, 56, 56, 0.171);
+  --background-bar-right:rgb(240, 3, 3);
+  --background-bar-left:rgb(247, 114, 114);
+  --box-shadow:#ccc;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+section {
+  height: 1200px;
+}
+
+header {
+  width: 100%;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background: var(--background-commun);
+  height: 5rem;
+  display: flex;
+  flex-flow: wrap nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header h3 {
+  font-family: "Vujahday Script", cursive;
+  letter-spacing: 0.2rem;
+  margin-left: 2rem;
+  color: white;
+}
+header .menu {
+  display: flex;
+  flex-direction: wrap;
+  margin-right: 2rem;
+}
+header .menu li a {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+/*nav*/
+.nav {
+  background: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+}
+.nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: Mulish, sans-serif;
+  font-size: 2rem;
+  color: black;
+  padding-right: 6rem;
+}
+.nav ul :nth-child(2),
+.nav ul :nth-child(3) {
+  padding: 0 5rem;
+}
+.nav li {
+  display: flex;
+  padding: 0 3rem;
+}
+.nav li a {
+  color: black;
+  padding-left: 7rem;
+  text-shadow: 1px 1px red;
+  font-size: 2.5rem;
+}
+.nav li a:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+.nav form {
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem 2rem 0;
+  margin: 2rem 2rem 0 0;
+}
+.nav form .search {
+  font-size: 2rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  max-width: 13rem;
+}
+.nav form .submit {
+  margin-left: 2rem;
+  padding-bottom: 0.2rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  font-size: 2rem;
+}
+
+/*main*/
+.pv {
+  background: url(../img/rue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -400px 0;
+}
+.pv .titre {
+  padding-top: 8em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+  color: white;
+}
+.pv .titre h1 {
+  font-size: 8rem;
+  text-shadow: 5px 5px var(--text-shadow);
+}
+.pv .titre h2 {
+  font-size: 5rem;
+  text-shadow: 5px 5px var(--text-shadow);
+}
+.pv .titre p {
+  font-size: 5rem;
+  text-shadow: 3px 3px var(--text-shadow);
+}
+
+/*# sourceMappingURL=style.css.map */

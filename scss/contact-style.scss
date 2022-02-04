@@ -1,0 +1,69 @@
+@import "btn";
+
+
+
+section {
+  display: flex;
+  justify-content: center;
+}
+form {
+  background: var(--background);
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  margin-top: 6rem;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 5rem 1rem;
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+}
+
+.form-example {
+  padding: 1rem;
+  margin: 1rem;
+}
+label {
+  display: inline-block;
+  width: 6rem;
+  text-align: left;
+  vertical-align: top;
+  color: white;
+}
+input {
+  background: var(--background-input);
+  vertical-align: top;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 2px;
+  color: white;
+}
+input:hover {
+  filter: brightness(150%);
+}
+#comment {
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+.form-example button {
+  margin-left: 8.5rem;
+}
+#email::before {
+  content: "*";
+}
+.email i {
+  font-size: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.info::before {
+  content: "*";
+}
+.info {
+  font-size: 1rem;
+
+  color: white;
+}
+p {
+  font-style: italic;
+}

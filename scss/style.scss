@@ -1,0 +1,129 @@
+@import "reccurent";
+@import "variables";
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+section {
+  height: 1200px;
+}
+
+header {
+  width: 100%;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background: var(--background-commun);
+  height: 5rem;
+  display: flex;
+  flex-flow: wrap nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-family: "Vujahday Script", cursive;
+    letter-spacing: 0.2rem;
+    margin-left: 2rem;
+    color: white;
+  }
+  .menu {
+    display: flex;
+    flex-direction: wrap;
+    margin-right: 2rem;
+
+    li a {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+    }
+  }
+}
+/*nav*/
+.nav {
+  background: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    font-family: Mulish, sans-serif;
+    font-size: 2rem;
+    color: black;
+    padding-right: 6rem;
+    :nth-child(2),
+    :nth-child(3) {
+      padding: 0 5rem;
+    }
+  }
+  li {
+    display: flex;
+    padding: 0 3rem;
+    a {
+      color: black;
+      padding-left: 7rem;
+      text-shadow: 1px 1px red;
+      font-size: 2.5rem;
+    }
+    a:hover {
+      transform: scale(1.2);
+      filter: brightness(1.2);
+    }
+  }
+  form {
+    display: flex;
+    justify-content: center;
+
+    padding: 0 3rem 2rem 0;
+    margin: 2rem 2rem 0 0;
+
+    .search {
+      font-size: 2rem;
+      border-radius: 3px;
+      border: 1px solid var(--border);
+      max-width: 13rem;
+    }
+    .submit {
+      margin-left: 2rem;
+      padding-bottom: 0.2rem;
+      border-radius: 3px;
+      border: 1px solid var(--border);
+
+      font-size: 2rem;
+    }
+  }
+}
+/*main*/
+.pv {
+  background: url(../img/rue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -400px 0;
+
+  .titre {
+    padding-top: 8em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    color: white;
+
+    h1 {
+      font-size: 8rem;
+      text-shadow: 5px 5px var(--text-shadow);
+    }
+    h2 {
+      font-size: 5rem;
+      text-shadow: 5px 5px var(--text-shadow);
+    }
+    p {
+      font-size: 5rem;
+      text-shadow: 3px 3px var(--text-shadow);
+    }
+  }
+}

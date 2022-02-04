@@ -1,0 +1,17 @@
+.btn {
+    width: 10rem;
+    height: 5rem;
+  background: white;
+  color: black;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+.btn:hover {
+  background: var(--background);
+  color: white;
+  border: 1px solid white;
+  transform: scale(1.3);
+  
+}
