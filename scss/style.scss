@@ -104,6 +104,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -400px 0;
+  
 
   .titre {
     padding-top: 8em;
@@ -112,6 +113,7 @@ header {
     align-items: center;
     justify-items: center;
     color: white;
+    
 
     h1 {
       font-size: 8rem;
@@ -123,7 +125,7 @@ header {
     }
     p {
       font-size: 5rem;
-      text-shadow: 3px 3px var(--text-shadow);
+      text-shadow: 3px 5px var(--text-shadow);
     }
   }
 }

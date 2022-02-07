@@ -44,7 +44,7 @@ body {
   --background-commun: #333;
   --border: #aaa;
   --background-input: rgb(68, 67, 67);
-  --text-shadow:rgb(163, 4, 4);
+  --text-shadow:rgb(85, 2, 2);
   --background-cigares:
   --background-timb-cig:white;
   --pictures:rgba(131, 56, 56, 0.171);
@@ -170,7 +170,7 @@ header .menu li a {
 }
 .pv .titre p {
   font-size: 5rem;
-  text-shadow: 3px 3px var(--text-shadow);
+  text-shadow: 3px 5px var(--text-shadow);
 }
 
 /*# sourceMappingURL=style.css.map */
